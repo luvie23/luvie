@@ -1,0 +1,87 @@
+html {
+    
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+nav {
+    display: flex;
+    flex: 1;
+    font-family: "Rubik", sans-serif;
+    justify-content: space-between;
+    height: 17px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#links {
+    margin-left: 25vw;
+}
+
+.side{
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position:   absolute;
+    margin-bottom: 20px;
+}
+
+#left-div{
+    background-color: black;
+    z-index: 2;
+
+}
+
+#right-div {
+    background-color: pink;
+}
+
+.side .header{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size:  5vw;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+#behind{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#behind1 {
+    height: 10vh;
+    width: 100vw;
+}
+
+#projects{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj{
+    border:3px solid black;
+    height: 40vh;
+    width: 20vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-image-width: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj-img{
+    height: 40vh;
+    width: 20vw;
+}
+
+.caption{
+    font-family: "Rubik", sans-serif;
+
+}
