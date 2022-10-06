@@ -63,22 +63,24 @@ nav {
     flex: 1;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .proj{
     border:3px solid black;
-    height: 40vh;
-    width: 20vw;
+    height: 300px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-right: 20px;
     border-image-width: 20vw;
     align-items: center;
     justify-content: center;
 }
 
 .proj-img{
-    height: 40vh;
-    width: 20vw;
+    height: 300px;
+    width: 250px;
 }
 
 .caption{
