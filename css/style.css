@@ -59,7 +59,7 @@ nav {
 #left-div .header{
     color: #F2C3C9;
     font-family: "Rubik", sans-serif;
-    font-size:  5vw;
+    font-size:  8vw;
     margin: 0px 15vw;
     width: 70vw;
 }
@@ -67,7 +67,7 @@ nav {
 #right-div .header{
     color: #151315;
     font-family: "Rubik", sans-serif;
-    font-size:  5vw;
+    font-size:  8vw;
     margin: 0px 15vw;
     width: 70vw;
 }
@@ -120,6 +120,16 @@ em{
 }
 a{
     color: #151315;
+}
+
+#headshot {
+    height: 100px;
+    width: auto;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 50%;
+
 }
 
 #about-background{
