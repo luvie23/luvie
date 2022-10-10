@@ -10,7 +10,7 @@ nav {
     display: flex;
     align-items: center;
     height: 20px;
-    background-color: #F89CB5;
+    background-color: #74B652;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -47,18 +47,18 @@ nav {
 #left-div{
     background-color: #151315;
     z-index: 2;
-    border-bottom:  2.5px solid #F89CB5;
+    border-bottom:  2.5px solid #8C7FAC;
 
 }
 
 #right-div {
-    background-color: #F89CB5;
+    background-color: #94C773;
     border-bottom:  2.5px solid #151315;
 
 }
 
 #left-div .header{
-    color: #F2C3C9;
+    color: #8C7FAC;
     font-family: "Rubik", sans-serif;
     font-size:  8vw;
     margin: 0px 15vw;
@@ -140,7 +140,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: right;
-
+    background-color: #8C7FAC;
     height: fit-content;
     color: #3A4044;
     width: 100vw;
@@ -151,7 +151,7 @@ a{
     flex-direction: column;
     align-items: center;
     height: 500px;
-    background-color:#BCC1D2 ;
+    background-color:#94C773 ;
     width: 100vw;
     font-family: "Rubik", sans-serif;
 
